@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = ({ color }) => {
-	const navigate = useNavigate();
+	// const navigate = useNavigate();
 	const location = useLocation();
 	console.log(location);
 	// if (location.pathname === "/about") {
